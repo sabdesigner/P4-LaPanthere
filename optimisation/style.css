@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -761,6 +761,9 @@ h4 {
 .white {
     color: #FFFFFF !important;
 }
+.black{
+    color: #000000 !important;
+}
 
 .portfolio-thumb {
     margin-bottom: 24px;
@@ -830,6 +833,16 @@ h4 {
 .icon-dark-slate-blue {
     color: #364577 !important;
     border-color: #364577 !important;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.reseau {
+    max-width: 400px;
+    margin: auto auto auto auto;
 }
 
 .bg-dots-bg {
