@@ -683,8 +683,21 @@ a {
     margin: auto auto auto auto;
 }
 
+.citation {
+    font-size: 18px;
+    max-width: 51rem;
+    margin: auto;
+}
+span {
+        font-weight: bold;
+    font-style: italic;
+    }
+
+
+
+/* Changement taille typo*/
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -710,7 +723,10 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
 }
-
+.bloc-h2{
+    max-width: 700px;
+    margin: auto;
+}
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -780,14 +796,14 @@ h4 {
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
-
+/* changement de couleur police */
 .tc-white {
-    color: #F3976C !important;
+    color: #FFFFFF !important;
 }
-
+/* changement de couleur police */
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF !important;
+    color: #000000 !important;
 }
 
 .btn-atomic-tangerine:hover {
